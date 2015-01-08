@@ -1,0 +1,17 @@
+{
+  "name": "MkoaUI",
+  "description": "make by Megic use Glup",
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-less":"*",
+    "gulp-minify-css":"*",
+    "gulp-rename":"*"
+  },
+  "engines": {
+    "node": ">= 11.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}

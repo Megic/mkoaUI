@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'H:\\nodejs\\\\node.exe',
+1 verbose cli   'H:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.11.14-nightly-20140819-pre
+4 verbose node symlink H:\nodejs\\node.exe
+5 warn package.json MkoaUI@0.0.1 No repository field.
+6 warn package.json MkoaUI@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'H:\\app\\mkoaUI', [ 'gulp', 'gulp-less', '\'gulp-css\'' ] ]
+9 info preinstall MkoaUI@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping gulp@^3.8.10 H:\app\mkoaUI
+12 verbose already installed skipping gulp-less@* H:\app\mkoaUI
+13 verbose cache add [ '\'gulp-css\'@*', null ]
+14 verbose cache add name=undefined spec="'gulp-css'@*" args=["'gulp-css'@*",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '%27gulp-css%27@*',
+15 verbose parsed url   path: '%27gulp-css%27@*',
+15 verbose parsed url   href: '%27gulp-css%27@*' }
+16 verbose cache add name="'gulp-css'" spec="*" args=["'gulp-css'","*"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '*',
+17 verbose parsed url   path: '*',
+17 verbose parsed url   href: '*' }
+18 verbose addNamed [ '\'gulp-css\'', '*' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 9bef722b-gulp-css 'gulp-css'@*
+21 verbose lock 'gulp-css'@* C:\Users\megic\AppData\Roaming\npm-cache\9bef722b-gulp-css.lock
+22 silly addNameRange { name: '\'gulp-css\'', range: '*', hasData: false }
+23 verbose request where is /%27gulp-css%27
+24 verbose request registry https://registry.npmjs.org/
+25 verbose request id 1386bcbd6d7d8668
+26 verbose url raw /%27gulp-css%27
+27 verbose url resolving [ 'https://registry.npmjs.org/', './%2527gulp-css%2527' ]
+28 verbose url resolved https://registry.npmjs.org/%2527gulp-css%2527
+29 verbose request where is https://registry.npmjs.org/%2527gulp-css%2527
+30 info trying registry request attempt 1 at 00:33:04
+31 http GET https://registry.npmjs.org/%2527gulp-css%2527
+32 http 404 https://registry.npmjs.org/%2527gulp-css%2527
+33 verbose headers { date: 'Thu, 08 Jan 2015 16:33:08 GMT',
+33 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '52',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   'x-served-by': 'cache-ty68-TYO',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1420734788.639094,VS0,VE182',
+33 verbose headers   connection: 'close' }
+34 silly registry.get cb [ 404,
+34 silly registry.get   { date: 'Thu, 08 Jan 2015 16:33:08 GMT',
+34 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'cache-control': 'max-age=0',
+34 silly registry.get     'content-length': '52',
+34 silly registry.get     'accept-ranges': 'bytes',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     age: '0',
+34 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+34 silly registry.get     'x-cache': 'MISS',
+34 silly registry.get     'x-cache-hits': '0',
+34 silly registry.get     'x-timer': 'S1420734788.639094,VS0,VE182',
+34 silly registry.get     connection: 'close' } ]
+35 silly lockFile 9bef722b-gulp-css 'gulp-css'@*
+36 silly lockFile 9bef722b-gulp-css 'gulp-css'@*
+37 error 404 404 Not Found: %2527gulp-css%2527
+37 error 404
+37 error 404 '%2527gulp-css%2527' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404 It was specified as a dependency of 'MkoaUI'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Windows_NT 6.1.7601
+39 error command "H:\\nodejs\\\\node.exe" "H:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+40 error cwd H:\app\mkoaUI
+41 error node -v v0.11.14-nightly-20140819-pre
+42 error npm -v 1.4.28
+43 error code E404
+44 verbose exit [ 1, true ]
