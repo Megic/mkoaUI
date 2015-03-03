@@ -1,0 +1,133 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-jgaxlg');
+	src:url('fonts/icomoon.eot?#iefix-jgaxlg') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-jgaxlg') format('woff'),
+		url('fonts/icomoon.ttf?-jgaxlg') format('truetype'),
+		url('fonts/icomoon.svg?-jgaxlg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+	content: "\e60f";
+}
+.icon-microphone:before {
+	content: "\e610";
+}
+.icon-archive:before {
+	content: "\e611";
+}
+.icon-injection:before {
+	content: "\e612";
+}
+.icon-thermometer:before {
+	content: "\e613";
+}
+.icon-ruler:before {
+	content: "\e614";
+}
+.icon-chat:before {
+	content: "\e615";
+}
+.icon-stats:before {
+	content: "\e616";
+}
+.icon-male:before {
+	content: "\e617";
+}
+.icon-female:before {
+	content: "\e618";
+}
+.icon-rocket:before {
+	content: "\e619";
+}
+.icon-picture:before {
+	content: "\e00f";
+}
+.icon-video:before {
+	content: "\e011";
+}
+.icon-camera:before {
+	content: "\e012";
+}
+.icon-mic:before {
+	content: "\e03a";
+}
+.icon-dial:before {
+	content: "\e048";
+}
+.icon-chat2:before {
+	content: "\e049";
+}
+.icon-heart2:before {
+	content: "\e04a";
+}
+.icon-happy:before {
+	content: "\e05b";
+}
+.icon-chat-alt-fill:before {
+	content: "\e600";
+}
+.icon-pencil:before {
+	content: "\e601";
+}
+.icon-location:before {
+	content: "\e602";
+}
+.icon-alarm:before {
+	content: "\e603";
+}
+.icon-stopwatch:before {
+	content: "\e604";
+}
+.icon-bubbles:before {
+	content: "\e605";
+}
+.icon-user:before {
+	content: "\e606";
+}
+.icon-cog:before {
+	content: "\e607";
+}
+.icon-aid:before {
+	content: "\e608";
+}
+.icon-bars:before {
+	content: "\e609";
+}
+.icon-heart:before {
+	content: "\e60a";
+}
+.icon-share:before {
+	content: "\e61a";
+}
+.icon-reddit:before {
+	content: "\e60b";
+}
+.icon-feather:before {
+	content: "\e60c";
+}
+.icon-googleplus:before {
+	content: "\e61b";
+}
+.icon-sun:before {
+	content: "\e60d";
+}
+.icon-cycle:before {
+	content: "\e61c";
+}
